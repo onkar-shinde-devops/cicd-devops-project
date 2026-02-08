@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Clone repo'){
             steps{
-                git branch: 'main', url: 'https://github.com/onkar-shinde-devops/two-tier-cicd-devops.git'
+                git branch: 'main', url: 'https://github.com/onkar-shinde29/two-tier-cicd-devops.git'
             }
         }
         stage('Build image'){
